@@ -51,6 +51,9 @@ launch:
       name: launch_merge_from_private_module
       default: "true"
   - arg:
+      name: launch_roundabout_module
+      default: "true"
+  - arg:
       name: launch_blind_spot_module
       default: "true"
   - arg:
@@ -64,7 +67,7 @@ launch:
       default: "true"
   - arg:
       name: launch_stop_line_module
-      default: "true"
+      default: "false"
   - arg:
       name: launch_occlusion_spot_module
       default: "false"
